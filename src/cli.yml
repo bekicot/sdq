@@ -1,0 +1,16 @@
+name: Stackexchange Dump Query Tool
+version: "0.0.1"
+author: Yana Agub S. <yana.developer@gmail.com>
+about: Does awesome things
+subcommands:
+    - export:
+        args:
+            - format:
+                short: f
+                default_value: sqlite
+            - input_xml:
+                index: 1
+                required: true
+            - output:
+                short: o
+                default_value: stackexchange.db.sqlite
