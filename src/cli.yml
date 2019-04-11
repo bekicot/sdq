@@ -1,6 +1,6 @@
-name: Stackexchange Dump Query Tool
+name: Stackexchange XML Dump Query Tool
 version: "0.0.1"
-author: Yana Agub S. <yana.developer@gmail.com>
+author: Yana Agun S. <yana.developer@gmail.com>
 about: Does awesome things
 subcommands:
     - export:
